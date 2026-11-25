@@ -29,8 +29,8 @@ const services = [
   },
   {
     num: "03",
-    title: "Lastbil, båt, husbil och mattor",
-    text: `Vi tar även lastbilar, båtar, husbilar och mattor. Besök oss på ${SITE.address.street}.`,
+    title: "Lastbil, båt och husbil",
+    text: `Vi tar även lastbilar, båtar och husbilar. Besök oss på ${SITE.address.street}.`,
     href: "/prislista#kategori-fordon",
     icon: (
       <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" aria-hidden>

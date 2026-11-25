@@ -37,7 +37,7 @@ export default function AboutPage() {
               Vi använder högkvalitativa produkter och utrustning för att resultatet ska sitta varje gång.
             </p>
             <p>
-              Vi tvättar även husbilar och mattor. Mattvätt är ett specialistområde, och för husbilar har vi särskild utbildning.
+              Vi tvättar även husbilar, och för dem har vi särskild utbildning.
             </p>
           </div>
           <div className="story-photo">

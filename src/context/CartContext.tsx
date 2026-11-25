@@ -8,7 +8,7 @@ import {
   useMemo,
   useState,
 } from "react";
-import type { Service } from "@/data/site";
+import { SERVICES, type Service } from "@/data/site";
 
 export type CartItem = {
   service: Service;
@@ -34,7 +34,9 @@ function loadCart(): CartItem[] {
     const raw = localStorage.getItem(STORAGE_KEY);
     if (!raw) return [];
     const parsed = JSON.parse(raw) as CartItem[];
-    return Array.isArray(parsed) ? parsed : [];
+    if (!Array.isArray(parsed)) return [];
+    const ids = new Set(SERVICES.map((service) => service.id));
+    return parsed.filter((item) => item?.service && ids.has(item.service.id));
   } catch {
     return [];
   }

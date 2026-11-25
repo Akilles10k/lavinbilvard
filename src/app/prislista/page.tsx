@@ -6,7 +6,7 @@ import { createPageMetadata, getServicesItemListJsonLd } from "@/lib/seo";
 export const metadata: Metadata = createPageMetadata({
   title: "Prislista",
   description:
-    "Priser för biltvätt, rekond, polering, lackskydd, lastbil, båt, husbil och mattvätt hos Lavin Bilvård & Service i Ängelholm.",
+    "Priser för biltvätt, rekond, polering, lackskydd, lastbil, båt och husbil hos Lavin Bilvård & Service i Ängelholm.",
   path: "/prislista",
 });
 

@@ -11,7 +11,7 @@ import { createPageMetadata, getBreadcrumbJsonLd, getFaqJsonLd } from "@/lib/seo
 export const metadata: Metadata = createPageMetadata({
   title: "Bilvård & service i Ängelholm",
   description:
-    "Ge ditt fordon en ny glans med Lavin Bilvård & Service i Ängelholm. Rekond, tvätt och polering av bilar, lastbilar, båtar, husbilar och mattor.",
+    "Ge ditt fordon en ny glans med Lavin Bilvård & Service i Ängelholm. Rekond, tvätt och polering av bilar, lastbilar, båtar och husbilar.",
   path: "/",
 });
 

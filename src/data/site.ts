@@ -29,7 +29,7 @@ export const SITE = {
   },
 } as const;
 
-export type ServiceCategory = "tvatt" | "rekond" | "fordon" | "special";
+export type ServiceCategory = "tvatt" | "rekond" | "fordon";
 
 export type Service = {
   id: number;
@@ -112,29 +112,15 @@ export const SERVICES: Service[] = [
       "Tvätt av husbil. Vi är specialister och har utbildning för husbilar.",
     category: "fordon",
   },
-  {
-    id: 10,
-    name: "Mattvätt",
-    price: "från 199 kr",
-    description:
-      "Vi tvättar mattor, både de du har hemma och de som ligger i bilen. Mattvätt är ett av våra specialistområden.",
-    category: "special",
-  },
 ];
 
 export const CATEGORY_LABELS: Record<ServiceCategory, string> = {
   tvatt: "Biltvätt",
   rekond: "Rekond & lackskydd",
   fordon: "Lastbil, båt & husbil",
-  special: "Mattor",
 };
 
-export const CATEGORY_ORDER: ServiceCategory[] = [
-  "tvatt",
-  "rekond",
-  "fordon",
-  "special",
-];
+export const CATEGORY_ORDER: ServiceCategory[] = ["tvatt", "rekond", "fordon"];
 
 export type GalleryImage = {
   src: string;

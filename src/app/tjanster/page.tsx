@@ -5,7 +5,7 @@ import { createPageMetadata } from "@/lib/seo";
 export const metadata: Metadata = createPageMetadata({
   title: "Tjänster",
   description:
-    "Professionell rekond, utvändig och invändig tvätt, polering, lackskydd, lastbilstvätt, båttvätt, husbil och mattvätt i Ängelholm.",
+    "Professionell rekond, utvändig och invändig tvätt, polering, lackskydd, lastbilstvätt, båttvätt och husbil i Ängelholm.",
   path: "/tjanster",
 });
 
@@ -33,12 +33,6 @@ const features = [
     text: "Att tvätta en lastbil är ett viktigt steg för att hålla den ren och välskött. Båtar polerar och tvättar vi för att bevara ytan och skydda mot väder och saltvatten. Husbilar tar vi också, och vi har utbildning för just det.",
     href: "/prislista#kategori-fordon",
     link: "Fordon och båt",
-  },
-  {
-    title: "Mattvätt",
-    text: "Vi tvättar mattor som du har hemma och de som ligger i bilen. Det är ett av områdena vi är specialister på.",
-    href: "/prislista#service-10",
-    link: "Mattvätt från 199 kr",
   },
 ];
 

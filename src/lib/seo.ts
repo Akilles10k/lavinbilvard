@@ -14,7 +14,6 @@ export const SEO_KEYWORDS = [
   "lastbilstvätt Ängelholm",
   "båttvätt Ängelholm",
   "husbiltvätt",
-  "mattvätt",
   "Lavin Bilvård",
 ] as const;
 
@@ -89,11 +88,6 @@ export const FAQ_ITEMS = [
     question: "Tvättar ni lastbilar, båtar och husbilar?",
     answer:
       "Ja. Lastbilstvätt börjar från 999 kr, båttvätt från 699 kr och husbil från 599 kr. Vi polerar även båtar och är specialister på husbilar.",
-  },
-  {
-    question: "Tvättar ni mattor?",
-    answer:
-      "Ja. Vi tvättar mattor både från hemmet och från bilen, från 199 kr. Mattvätt är ett av våra specialistområden.",
   },
   {
     question: "Hur bokar jag tid?",
