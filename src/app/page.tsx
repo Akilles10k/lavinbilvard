@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import WhySection from "@/components/WhySection";
 import StatsSection from "@/components/StatsSection";
@@ -50,6 +51,16 @@ export default function HomePage() {
               Priser
             </Link>
           </div>
+        </div>
+        <div className="hero-car-mobile" aria-hidden="true">
+          <Image
+            src="/hero-car.png"
+            alt=""
+            width={1265}
+            height={443}
+            priority
+            className="hero-car-mobile-img"
+          />
         </div>
       </section>
       <WhySection />

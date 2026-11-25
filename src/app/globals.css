@@ -2824,8 +2824,9 @@ body.cart-booking-open .services--with-cart {
   }
 
   .hero-car-mobile-img {
+    display: block;
     width: 108%;
-    max-width: 108%;
+    max-width: none;
     height: auto;
     max-height: none;
     object-fit: contain;
